@@ -1,0 +1,173 @@
+html, body{
+    background-color: #F5F5F5;
+    width: 100%;
+    font-family: 'Lucida Sans Unicode';
+}
+header{
+    margin-bottom: 10px;
+}
+div{
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+}
+a{
+    color: black;
+}
+input.item{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.block2 {
+    display: none;
+    border: 2px solid rgb(70, 3, 77);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 350px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+}
+.knopka{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 40%;
+    cursor: pointer;
+}
+.button{
+    text-align: center;
+}
+.item{
+    margin-top: 5px;
+}
+.menu{
+    width: 10%;
+    padding: 5%;
+    float: left;
+}
+.content{
+    float: left;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 720px;
+}
+.image {
+	position: relative;
+	width: 100%;
+}
+.center {
+	position: absolute;
+	top	: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;;
+	
+}
+.glowna {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+}
+.galerry{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.big{
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform .2s;
+}
+img.big:hover, img.big:active{
+    transform: scale(1.5);
+}
+.navbar{
+    background-color: #F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    position: relative;
+    width: 70%;
+    overflow: auto;
+}
+.navbar a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+}
+.sprzet{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabl{
+    border-radius: 10px;
+}
+.tabl, tr, td{
+    padding: 7px;
+    border: 1px solid rgb(49, 1, 53);
+    border-collapse: collapse;
+}
+.tabl tr td img{
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+.text{
+    text-align: left;
+    width: 90%;
+}
+footer { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:  #F5F5F5;
+    width: 100%;
+    height:25px;
+    margin-bottom: 0;
+	text-align:left;
+	margin-top:10px;
+    padding:5px;
+}
+
+@media screen and (max-width: 750px){
+    .navbar a{
+        float: none;
+        display: block;
+        width: 100%;
+         text-align: center;
+    }
+    .menu{
+        float: left;
+        display: block;
+    }
+    .content{
+        display: block;
+        padding: 20px;
+    }
+    footer{
+        display: block;
+    }
+    .tabl tr td img{
+        text-align: center;
+        width: 100px;
+        height: auto;
+    }
+}
